@@ -46,8 +46,8 @@ jobs:
           ./build.sh
           ./whatsin
           cp ../../logs/makeovjlog ../buildLog.txt
-          if [[ ! -d ../../dvdimageOVJ ]]; then
-             echo "OpenVnmrJ build failed"
+          if [[ ! -d ../../dvdimageB12 ]]; then
+             echo "OpenVnmrJ_B12T build failed"
              touch ../buildFail
           fi
           
