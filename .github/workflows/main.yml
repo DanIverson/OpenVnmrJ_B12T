@@ -3,6 +3,7 @@ name: Build and Test OpenVnmrJ_B12T
 on:
   push:
     branches: [ master ]
+
   pull_request:
     branches: [ master ]
 
